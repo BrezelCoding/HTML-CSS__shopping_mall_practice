@@ -1,0 +1,113 @@
+body {
+  margin: 0px;
+}
+
+div,
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+.main-background {
+  width: 100%;
+  height: 600px;
+  background-image: url(img/shoes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  padding: 1px;
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.main-title {
+  color: white;
+  font-size: 70px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.main-content {
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main-button {
+  margin-top: 15px;
+  padding: 15px;
+  font-size: 20px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  z-index: 5;
+}
+
+.explain-box {
+  width: 80%;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px 50px;
+  text-align: center;
+  background-color: #eeeeee;
+  position: relative;
+  top: -40px;
+}
+
+.main-container {
+  height: 500px;
+}
+
+.from-background {
+  background-color: #eeeeee;
+  padding: 30px;
+}
+
+.form-white {
+  background-color: white;
+  padding: 30px;
+  width: 80%;
+  max-width: 700px;
+  margin: auto;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #777777;
+}
+
+.your__email,
+.message {
+  width: 100%;
+  padding: 10px;
+}
+
+.first__name,
+.last__name {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+.form-input.textarea {
+  height: 150px;
+}
+
+.send {
+  padding: 10px;
+}
+
+.send-btn {
+  padding: 10px 30px;
+  display: block;
+  margin-left: auto;
+  background-color: coral;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
