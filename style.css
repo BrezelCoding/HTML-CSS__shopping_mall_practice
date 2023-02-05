@@ -8,6 +8,10 @@ textarea {
   box-sizing: border-box;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 .main-background {
   width: 100%;
   height: 600px;
@@ -110,4 +114,35 @@ textarea {
   border: none;
   color: white;
   font-size: 15px;
+}
+
+/* cart */
+.cart-background {
+  width: 100%;
+  background-color: #c2d3de;
+  padding: 30px;
+}
+
+.cart-head {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+}
+
+.cart-table {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.cart-table td,
+.cart-table th {
+  padding: 15px;
+  border-bottom: 1px solid #c2d3de;
+}
+
+.cell-long {
+  width: 700px;
 }
