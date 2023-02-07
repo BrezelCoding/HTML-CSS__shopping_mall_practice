@@ -74,8 +74,18 @@ table {
   top: -40px;
 }
 
-.main-container {
-  height: 500px;
+.product-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.product-container div {
+  float: left;
+  width: 25%;
 }
 
 .from-background {
@@ -179,4 +189,25 @@ table {
 
 .btn:hover {
   background-color: chocolate;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-title {
+    font-size: 50px;
+  }
+  .product-container {
+    max-width: 700px;
+  }
+  .product-container div {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 30px;
+  }
+  .product-container div {
+    width: 100%;
+  }
 }
