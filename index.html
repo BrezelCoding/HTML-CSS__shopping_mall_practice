@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/0493fec79e.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/0493fec79e.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Shopping Mall - Mini Project</title>
   </head>
   <body>
-<nav class="nav-container">
-    <div class="nav-item">Shoe Shop</div>
-    <div style="flex-grow: 1"></div>
-    <div class="nav-item">Products</div>
-    <div class="nav-item">Services</div>
-</nav>
+    <nav class="nav-container">
+      <div class="nav-item">Shoe Shop</div>
+      <div style="flex-grow: 1"></div>
+      <div class="nav-item">Products</div>
+      <div class="nav-item">Services</div>
+    </nav>
 
     <!-- header -->
     <div class="main-background">
@@ -36,59 +39,98 @@
 
     <!-- main -->
     <div class="product-container">
-    <div>
+      <div>
         <i class="fa-solid fa-cart-shopping fa-3x"></i>
         <h4>Fast Shipping</h4>
         <p>We ship faster than other shipping</p>
-    </div>
-    <div>
+      </div>
+      <div>
         <i class="fa-solid fa-earth-americas fa-3x"></i>
         <h4>Good Service</h4>
         <p>Expect a lifelong service</p>
-    </div>
-    <div>
+      </div>
+      <div>
         <i class="fa-solid fa-user fa-3x"></i>
         <h4>Free Coupons</h4>
         <p>With new welcome gifts</p>
-    </div>
-    <div>
+      </div>
+      <div>
         <i class="fa-solid fa-shirt fa-3x"></i>
         <h4>New Products</h4>
         <p>See monthly new products</p>
+      </div>
+      <div style="float: none; clear: both"></div>
     </div>
-    <div style="float: none; clear: both;"></div>
-    </div>
-    
 
+    <!-- product -->
+
+    <div class="shop-bg">
+      <div class="shop-container">
+        <div class="shop-item">
+          <div style="position: relative">
+            <div class="overlay-wrap">
+              <div class="overlay-black">
+                <span class="price">$60</span>
+              </div>
+            </div>
+            <img src="img/product1-1.jpg" />
+          </div>
+        </div>
+        <div class="shop-item">
+          <div style="position: relative">
+            <div class="overlay-wrap">
+              <div class="overlay-black">
+                <span class="price">$100</span>
+              </div>
+            </div>
+            <img src="img/product2.jpg" />
+          </div>
+        </div>
+        <div class="shop-item">
+          <div style="position: relative">
+            <div class="overlay-wrap">
+              <div class="overlay-black">
+                <span class="price">$80</span>
+              </div>
+            </div>
+            <img src="img/product3.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- contact us -->
     <div class="from-background">
       <div class="form-white">
-        <form>         
-          <h1>Contact Us</h2>
-            <div class="your__email">
-          <p>Your Email</p>
-          <input type="email" class="form-input" placeholder="email@example.com"/>
-        </div>
+        <form>
+          <h1>Contact Us</h1>
+          <div class="your__email">
+            <p>Your Email</p>
+            <input
+              type="email"
+              class="form-input"
+              placeholder="email@example.com"
+            />
+          </div>
           <div class="first__name">
             <p>First Name</p>
-            <input type="text" class="form-input">
+            <input type="text" class="form-input" />
           </div>
           <div class="last__name">
             <p>Last Name</p>
-            <input type="text" class="form-input">
+            <input type="text" class="form-input" />
           </div>
-          <div style="clear:both"></div>
+          <div style="clear: both"></div>
           <div class="message">
             <p>Message</p>
             <textarea class="form-input textarea"></textarea>
           </div>
 
-         <div class="send">
-            <input id="sub" type="checkbox">
+          <div class="send">
+            <input id="sub" type="checkbox" />
             <label for="sub">Subscribe</label>
             <button class="send-btn">SEND</button>
-         </div> 
+          </div>
         </form>
       </div>
     </div>

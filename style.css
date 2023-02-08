@@ -100,6 +100,69 @@ table {
   margin-top: 40px;
 }
 
+/* product */
+.shop-bg {
+  background-color: #eeeeee;
+  padding: 50px;
+}
+
+.shop-container {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.shop-item {
+  width: 33%;
+  padding: 10px;
+}
+
+.shop-item img {
+  width: 100%;
+  display: block;
+}
+
+.overlay-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.overlay-wrap:hover .overlay-black {
+  margin-top: 50%;
+}
+
+.overlay-black {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 100%;
+  transition: all 1s;
+  padding-top: 10px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  transition: all 1s;
+}
+
+.overlay:hover {
+  opacity: 0.5;
+}
+
+.price {
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+}
+
+/* form */
+
 .from-background {
   background-color: #eeeeee;
   padding: 30px;
